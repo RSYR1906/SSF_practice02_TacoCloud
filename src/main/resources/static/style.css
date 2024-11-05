@@ -1,0 +1,18 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .ingredient-group {
+    flex: 1 1 50%; /* Each group takes half the container width */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .ingredient-group h3 {
+    margin-top: 0;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
